@@ -94,4 +94,4 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 
 <!-- References -->
 
-[installer]: #
+[installer]: https://github.com/denysdovhan/ukrainian-typographic-keyboard/releases/download/v1.0.0/ukrainian-typographic-keyboard.dmg
