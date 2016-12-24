@@ -4,11 +4,45 @@
   </a>
 </p>
 
-# Ukrainian typographic keyboard
+# Ukrainian Typographic Keyboard
 
-> Combined Ukrainian keyboard layout with typographic symbols
+> «Combined Ukrainian keyboard layout with typographic symbols»
 
-## Ukrainian
+Based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type). Adapted for Ukrainian keyboard layout with some improvements:
+
+* Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, etc).
+* Russian-specific characters could be entered with modifier keys (`⌥`).
+* Added English typographic layout for better consistency
+* Neutral icons (dots) for layouts (_red_ for Ukrainian, _gray_ for English)
+* `'` on Ukrainian layout
+
+Want more features? Please, [open an issue](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/new) or send pull request.
+
+## Installation
+
+Here is a manual instructions how to install typographic keyboard layouts:
+
+1. Download [the latest version of installer][installer]
+1. Install as you usually do (move `ukrainian-typographic-keyboard.bundle` to `Keyboard Layouts` shortcut)
+1. Profit!
+
+## Usage
+
+Use modifier key (`⌥` as default) when you need to type typographic symbols. For example:
+
+* `⌥` + `c` = `©`
+* `⌥` + `r` = `®`
+* `⌥` + `t` = `™`
+* `⌥` + `і` = `ы`
+* `⌥` + `г` = `ґ`
+* `⌥` + `.` = `…`
+* and so on…
+
+## Layout
+
+Below you can see how keyboard layout interacts with different modifier keys `⇧`, `⌥` and `⌥`+`⇧`.
+
+### Ukrainian
 
 <p align="center">
   <a href="https://cloud.githubusercontent.com/assets/3459374/21287178/667d8422-c46e-11e6-9bc7-3ee053f5a57b.png">
@@ -31,7 +65,7 @@
   </a>
 </p>
 
-## English
+### English
 
 <p align="center">
   <a href="https://cloud.githubusercontent.com/assets/3459374/21287174/666202d8-c46e-11e6-9f9c-34a029c9d6c0.png">
@@ -57,3 +91,7 @@
 ## License
 
 MIT © [Denys Dovhan](http://denysdovhan.com)
+
+<!-- References -->
+
+[installer]: #
