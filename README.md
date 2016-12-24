@@ -15,6 +15,7 @@ Based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type)
 * Added English typographic layout for better consistency
 * Neutral icons (dots) for layouts (_red_ for Ukrainian, _gray_ for English)
 * `'` on Ukrainian layout
+* **Soon:** Russian-as-primary Ukrainian typographic layout ([vote at #2](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/2))
 
 Want more features? Please, [open an issue](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/new) or send pull request.
 
@@ -42,7 +43,7 @@ Use modifier key (`⌥` as default) when you need to type typographic symbols. F
 
 Below you can see how keyboard layout interacts with different modifier keys `⇧`, `⌥` and `⌥`+`⇧`.
 
-### Ukrainian
+### Ukrainian:
 
 <p align="center">
   <a href="https://cloud.githubusercontent.com/assets/3459374/21287178/667d8422-c46e-11e6-9bc7-3ee053f5a57b.png">
@@ -65,7 +66,7 @@ Below you can see how keyboard layout interacts with different modifier keys `�
   </a>
 </p>
 
-### English
+### English:
 
 <p align="center">
   <a href="https://cloud.githubusercontent.com/assets/3459374/21287174/666202d8-c46e-11e6-9f9c-34a029c9d6c0.png">
