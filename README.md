@@ -10,8 +10,8 @@
 
 Based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type). Adapted for Ukrainian keyboard layout with some improvements:
 
-* Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, etc).
-* Russian-specific characters could be entered with modifier keys (`⌥`).
+* Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, etc)
+* Russian-specific characters could be entered with modifier keys (`⌥`)
 * Added English typographic layout for better consistency
 * Neutral icons (dots) for layouts (_red_ for Ukrainian, _gray_ for English)
 * `'` on Ukrainian layout
