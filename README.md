@@ -13,7 +13,7 @@ Based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type)
 * Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, etc)
 * Russian-specific characters could be entered with modifier keys (`⌥`)
 * Added English typographic layout for better consistency
-* Neutral icons (dots) for layouts (_red_ for Ukrainian, _gray_ for English)
+* Neutral icons (dots) for layouts (🔴 for Ukrainian, ⚪️ for English)
 * `'` on Ukrainian layout
 * **Soon:** Russian-as-primary Ukrainian typographic layout ([vote at #2](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/2))
 
