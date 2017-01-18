@@ -21,7 +21,13 @@ Want more features? Please, [open an issue](https://github.com/denysdovhan/ukrai
 
 ## Installation
 
-Here is a manual instructions how to install typographic keyboard layouts:
+You can install typographic keyboard layout using [Homebrew](//brew.sh/):
+
+```sh
+brew cask install ukrainian-typographic-keyboard
+```
+
+Or do it manually:
 
 1. Download [the latest version of installer][installer]
 1. Install as you usually do (move `ukrainian-typographic-keyboard.bundle` to `Keyboard Layouts` shortcut)
