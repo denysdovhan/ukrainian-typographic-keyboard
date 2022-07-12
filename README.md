@@ -30,7 +30,7 @@ Or do it manually:
 1. Install the keyboard by one of these methods:
   1. Open `Keyboard Installer.app` and choose `Install for current user`
   1. Copy `ukrainian-typographic-keyboard.bundle` to `~/Library/Keyboard Layouts`
-1. Profit!
+1. Set keyboard in `System Preferences` → `Keyboard` → `Input Sources`
 
 ## Usage
 
