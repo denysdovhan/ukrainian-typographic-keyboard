@@ -7,20 +7,28 @@
 	<key>CFBundleName</key>
 	<string>ukrainian-typographic-keyboard</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string></string>
 	<key>KLInfo_English</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.kb.english</string>
 		<key>TISIntendedLanguage</key>
-		<string>en-US</string>
+		<string>en</string>
 	</dict>
 	<key>KLInfo_Ukrainian</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.kb.ukrainian</string>
 		<key>TISIntendedLanguage</key>
-		<string>uk-UA</string>
+		<string>uk</string>
 	</dict>
 </dict>
 </plist>
