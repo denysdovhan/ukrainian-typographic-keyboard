@@ -17,7 +17,7 @@
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.kb.english</string>
 		<key>TISIntendedLanguage</key>
-		<string>en</string>
+		<string>en-US</string>
 	</dict>
 	<key>KLInfo_Ukrainian</key>
 	<dict>
