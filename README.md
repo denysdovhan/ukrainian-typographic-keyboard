@@ -1,21 +1,18 @@
 <p align="center">
-  <a href="">
-    <img alt="Ukrainian typographic keyboard" src="https://cloud.githubusercontent.com/assets/3459374/21287430/fa431ff0-c473-11e6-932e-09d5209995aa.png" width="100%">
-  </a>
+  <img alt="Ukrainian typographic keyboard" src="https://cloud.githubusercontent.com/assets/3459374/21287430/fa431ff0-c473-11e6-932e-09d5209995aa.png" width="100%">
 </p>
 
 # Ukrainian Typographic Keyboard
 
-> «Combined Ukrainian keyboard layout with typographic symbols»
+> Combined Ukrainian keyboard layout with typographic symbols
 
-Based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type). Adapted for Ukrainian keyboard layout with some improvements:
+This is a custom keyboard layout for Ukrainian language. It is a combination of the Ukrainian and English keyboard layout and the typographic symbols. Unlike the default layout this keyboard places specific characters in the more intuitive places.
 
-* Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, etc)
+* Added Ukrainian-specific characters (`і`, `є`, `ґ`, `ї`, `₴` etc)
 * Russian-specific characters could be entered with modifier keys (`⌥`)
 * Added English typographic layout for better consistency
 * Neutral icons (dots) for layouts (🔴 for Ukrainian, ⚪️ for English)
 * `'` on Ukrainian layout
-* **Soon:** Russian-as-primary Ukrainian typographic layout ([vote at #2](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/2))
 
 Want more features? Please, [open an issue](https://github.com/denysdovhan/ukrainian-typographic-keyboard/issues/new) or send pull request.
 
@@ -24,13 +21,15 @@ Want more features? Please, [open an issue](https://github.com/denysdovhan/ukrai
 You can install typographic keyboard layout using [Homebrew](http://brew.sh/):
 
 ```sh
-brew cask install ukrainian-typographic-keyboard
+brew install --cask ukrainian-typographic-keyboard
 ```
 
 Or do it manually:
 
 1. Download [the latest version of installer][installer]
-1. Install as you usually do (move `ukrainian-typographic-keyboard.bundle` to `Keyboard Layouts` shortcut)
+1. Install the keyboard by one of these methods:
+  1. Open `Keyboard Installer.app` and choose `Install for current user`
+  1. Copy `ukrainian-typographic-keyboard.bundle` to `~/Library/Keyboard Layouts`
 1. Profit!
 
 ## Usage
@@ -40,7 +39,6 @@ Use modifier key (`⌥` as default) when you need to type typographic symbols. F
 * `⌥` + `c` = `©`
 * `⌥` + `r` = `®`
 * `⌥` + `t` = `™`
-* `⌥` + `і` = `ы`
 * `⌥` + `г` = `ґ`
 * `⌥` + `.` = `…`
 * and so on…
@@ -52,47 +50,19 @@ Below you can see how keyboard layout interacts with different modifier keys `�
 ### Ukrainian:
 
 <p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287178/667d8422-c46e-11e6-9bc7-3ee053f5a57b.png">
-    <img alt="Ukrainian" src="https://cloud.githubusercontent.com/assets/3459374/21287178/667d8422-c46e-11e6-9bc7-3ee053f5a57b.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287177/667d3fd0-c46e-11e6-96c1-d6bd38e719f5.png">
-    <img alt="Ukrainian with Shift" src="https://cloud.githubusercontent.com/assets/3459374/21287177/667d3fd0-c46e-11e6-96c1-d6bd38e719f5.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287180/6690bb0a-c46e-11e6-8656-95771ce1921e.png">
-    <img alt="Ukrainian with Option" src="https://cloud.githubusercontent.com/assets/3459374/21287180/6690bb0a-c46e-11e6-8656-95771ce1921e.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287181/66a7979e-c46e-11e6-9673-e1c0b304ea98.png">
-    <img alt="Ukrainian with Shift and Option" src="https://cloud.githubusercontent.com/assets/3459374/21287181/66a7979e-c46e-11e6-9673-e1c0b304ea98.png" width="600">
-  </a>
+  <img alt="ua" src="https://user-images.githubusercontent.com/3459374/178566977-8b5fdc13-880e-4970-9703-c3287cd40e16.png">
+  <img alt="ua-shift" src="https://user-images.githubusercontent.com/3459374/178566990-8c0c12e6-915e-49cf-9400-0202995f4e92.png">
+  <img alt="ua-option" src="https://user-images.githubusercontent.com/3459374/178566994-af88f106-e33e-440f-b449-e2ec825cdd73.png">
+  <img alt="ua-option-shift" src="https://user-images.githubusercontent.com/3459374/178567245-fb34babc-bebb-4693-b6e8-7a2d354592dd.png">
 </p>
 
 ### English:
 
 <p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287174/666202d8-c46e-11e6-9f9c-34a029c9d6c0.png">
-    <img alt="English" src="https://cloud.githubusercontent.com/assets/3459374/21287174/666202d8-c46e-11e6-9f9c-34a029c9d6c0.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287176/667cf50c-c46e-11e6-963e-5566f48a5c9e.png">
-    <img alt="English with Shift" src="https://cloud.githubusercontent.com/assets/3459374/21287176/667cf50c-c46e-11e6-963e-5566f48a5c9e.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287175/667c4850-c46e-11e6-97e9-3806ebfebcad.png">
-    <img alt="English with Option" src="https://cloud.githubusercontent.com/assets/3459374/21287175/667c4850-c46e-11e6-97e9-3806ebfebcad.png" width="600">
-  </a>
-</p>
-<p align="center">
-  <a href="https://cloud.githubusercontent.com/assets/3459374/21287179/66815e3a-c46e-11e6-9186-e32ab389a2df.png">
-    <img alt="English with Shift and Option" src="https://cloud.githubusercontent.com/assets/3459374/21287179/66815e3a-c46e-11e6-9186-e32ab389a2df.png" width="600">
-  </a>
+  <img alt="en" src="https://user-images.githubusercontent.com/3459374/178567741-2dfc725c-61e2-4d61-bec7-ac7944d4ce5f.png">
+  <img alt="en-shift" src="https://user-images.githubusercontent.com/3459374/178567745-a4bcf4b8-20e2-4b82-bdec-c090be3f2125.png">
+  <img alt="en-option" src="https://user-images.githubusercontent.com/3459374/178567753-2a008cd1-69a8-4957-b760-d78bd368654e.png">
+  <img alt="en-option-shift" src="https://user-images.githubusercontent.com/3459374/178567756-c9f22bc0-db85-422b-8567-7e25f33ee372.png">
 </p>
 
 ## License
@@ -101,4 +71,4 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 
 <!-- References -->
 
-[installer]: https://github.com/denysdovhan/ukrainian-typographic-keyboard/releases/download/v1.0.0/ukrainian-typographic-keyboard.dmg
+[installer]: https://github.com/denysdovhan/ukrainian-typographic-keyboard/releases/latest/download/ukrainian-typographic-keyboard.dmg
