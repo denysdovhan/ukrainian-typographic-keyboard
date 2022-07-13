@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Ukrainian Typographic Keyboard
-logo: https://cloud.githubusercontent.com/assets/3459374/21287430/fa431ff0-c473-11e6-932e-09d5209995aa.png
+logo:
 description: Українська типографська розкладка клавіатури, що комбінує англійську та українську розкладки з типографськими символами. 
 show_downloads: false
 google_analytics:
